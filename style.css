@@ -1,31 +1,14 @@
 			/* SDF SITE CSS */
 
-#op-horizontalnav {
-	background:#171717;
-	position:fixed;
-	top:0;
-	right:0;
-	left:0
-}
-#op-horizontalnav .op-sectionlist {width:100%; margin:auto;padding:0; text-align:center; display:table;}
-#op-horizontalnav .op-v-item {list-style:none; display:table-cell; font-size:16px}
-#op-horizontalnav .op-v-item .op-v-link {color:#fff; padding:16px 8px;display:block;text-decoration:none}
-#op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {background-color:#fff;color:#171717}
-
-/*== Sections ==*/
 section h1 {padding:450px; text-align:center; color:white; background:#333; border-top:1px solid red; margin:0}
 section:nth-child(even) h1 {background:#222;} /*on différencie la couleur 1 section sur 2*/
 
 body {
-	background-color: #704214;
+	background-color: #E2BC74;
 }
 
 .sdf-logo-svg {
-	text-align: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	max-height: 500px;
-	max-width: 500px;
+	padding:0px 300px;
 }
 .section-displayed {
 	display:flex;
@@ -33,6 +16,18 @@ body {
 	width: 100%;
 }
 
+.teaser {
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	margin:100px 0px;
+}
+
+.teaser-title {
+	color :red;
+	font-size: 64px;
+	margin:20px 0px;
+}
 /*== V nav ==*/
 #op-verticalnav {
 	position:fixed;
@@ -87,6 +82,13 @@ body {
 	border-radius:4px; }
 #op-verticalnav .op-v-link:hover .op-v-itemdesc {
 	right:0px;
+}
+
+footer {
+	display: flex;
+	background-color: orange;
+	align-items: center;
+	text-align:center;
 }
 
 /* CAROUSEL */
