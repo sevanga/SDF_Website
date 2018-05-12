@@ -3,8 +3,14 @@
 section h1 {padding:450px; text-align:center; color:white; background:#333; border-top:1px solid red; margin:0}
 section:nth-child(even) h1 {background:#222;} /*on différencie la couleur 1 section sur 2*/
 
+@font-face {
+	font-family: "SpicyRice";
+	src: url('SpicyRice-Regular.ttf');
+}
+
 body {
 	background-color: #E2BC74;
+	font-family: "SpicyRice";
 }
 
 .sdf-logo-svg {
