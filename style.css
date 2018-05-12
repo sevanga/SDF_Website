@@ -32,8 +32,52 @@ body {
 .teaser-title {
 	color :red;
 	font-size: 64px;
-	margin:20px 0px;
+	margin:50px 0px;
 }
+
+.place-title {
+	text-align: center;
+	color :red;
+	font-size: 64px;
+}
+.place-subtitle {
+	text-align: center;
+	color :black;
+	font-size: 42px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.place-subtitle:hover {
+	color:white
+}
+
+.place-layout {
+	display:flex;
+	justify-content: center;
+	margin-bottom: 75px;
+}
+
+.contact-layout {
+	display:flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 75px;
+}
+.contact-title{
+	text-align: center;
+	color :red;
+	font-size: 64px;
+	margin:50px 0px;
+}
+.fb-logo-svg{
+
+}
+
+.insta-logo-svg{}
 /*== V nav ==*/
 #op-verticalnav {
 	position:fixed;
@@ -91,6 +135,9 @@ body {
 }
 
 footer {
+	margin-bottom: -50px;
+	width: auto;
+	height: 50px;
 	display: flex;
 	background-color: orange;
 	align-items: center;
@@ -98,15 +145,3 @@ footer {
 }
 
 /* CAROUSEL */
-
-#carrousel{
-    position:relative;
-    height:200px;
-    width:700px;
-    margin:auto;
-}
-#carrousel ul li{
-    position:absolute;
-    top:0;
-    left:0;
-}
