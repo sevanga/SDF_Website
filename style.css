@@ -4,13 +4,13 @@ section h1 {padding:450px; text-align:center; color:white; background:#333; bord
 section:nth-child(even) h1 {background:#222;} /*on différencie la couleur 1 section sur 2*/
 
 @font-face {
-	font-family: "SpicyRice";
-	src: url('SpicyRice-Regular.ttf');
+	font-family: "KeeponTruckin";
+	src: url('KeeponTruckin.ttf');
 }
 
 body {
 	background-color: #E2BC74;
-	font-family: "SpicyRice";
+	font-family: "KeeponTruckin";
 }
 
 .sdf-logo-svg {
@@ -26,7 +26,7 @@ body {
 	display:flex;
 	justify-content: center;
 	text-align: center;
-	margin:100px 0px;
+	margin:120px 0px;
 }
 
 .teaser-title {
