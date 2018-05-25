@@ -1,31 +1,28 @@
 			/* SDF SITE CSS */
 
-#op-horizontalnav {
-	background:#171717;
-	position:fixed;
-	top:0;
-	right:0;
-	left:0
-}
-#op-horizontalnav .op-sectionlist {width:100%; margin:auto;padding:0; text-align:center; display:table;}
-#op-horizontalnav .op-v-item {list-style:none; display:table-cell; font-size:16px}
-#op-horizontalnav .op-v-item .op-v-link {color:#fff; padding:16px 8px;display:block;text-decoration:none}
-#op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {background-color:#fff;color:#171717}
-
-/*== Sections ==*/
-section h1 {padding:450px; text-align:center; color:white; background:#333; border-top:1px solid red; margin:0}
+section { color:white; background:#333; margin:0; width:100%; height: 650px;border-radius: 10%; margin-bottom:150px;}
 section:nth-child(even) h1 {background:#222;} /*on différencie la couleur 1 section sur 2*/
 
+#mysect1{
+	margin-top:150px;
+}
+
+@font-face {
+	font-family: "KeeponTruckin";
+	src: url('KeeponTruckin.ttf');
+}
+
 body {
-	background-color: #704214;
+	background-image:url('background.png');
+	background-size: contain;
+	background-repeat: : repeat;
+	background-color: #E2BC74;
+	font-family: "KeeponTruckin";
 }
 
 .sdf-logo-svg {
-	text-align: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	max-height: 500px;
-	max-width: 500px;
+	padding:0px 300px;
+	margin-top: 50px;
 }
 .section-displayed {
 	display:flex;
@@ -33,6 +30,132 @@ body {
 	width: 100%;
 }
 
+.teaser {
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+  flex-direction: column;
+}
+
+.teaser-title {
+	color :red;
+	font-size: 64px;
+	margin:50px 0px;
+	width: 80%;
+}
+.place {
+	padding-top:50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.place-title {
+	text-align: center;
+	color :red;
+	font-size: 64px;
+}
+.place-subtitle {
+	text-align: center;
+	color :black;
+	font-size: 42px;
+	text-decoration: none;
+}
+
+.place-subtitle:visited > a:visited{
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+.place-subtitle:hover {
+	color:white
+}
+
+.place-layout {
+	display:flex;
+	justify-content: center;
+	margin-bottom: 75px;
+}
+
+.contact-layout {
+	display:flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 75px;
+}
+.contact-title{
+	text-align: center;
+	color :red;
+	font-size: 64px;
+	margin:50px 0px;
+}
+
+.sponsors {
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+  flex-direction: column;
+}
+
+.sponsors-title {
+	color :red;
+	font-size: 64px;
+	margin:50px 0px;
+}
+
+.drinks {
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+  flex-direction: column;
+}
+
+.beers {
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+}
+
+.drinks-title {
+	color :red;
+	font-size: 64px;
+	margin:50px 0px;
+}
+
+.arrondie {
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:10%;
+}
+
+.arrondie_plus {
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:40%;
+}
+
+.billetrie {
+	border:5px solid black;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:50%;
+}
+
+.billetrie:hover {
+	border:5px solid green;
+	cursor: pointer;
+}
+
+.insta-logo-svg{}
 /*== V nav ==*/
 #op-verticalnav {
 	position:fixed;
@@ -89,16 +212,14 @@ body {
 	right:0px;
 }
 
-/* CAROUSEL */
+footer {
+	margin-bottom: -50px;
+	width: auto;
+	height: 50px;
+	display: flex;
+	background-color: orange;
+	align-items: center;
+	text-align:center;
+}
 
-#carrousel{
-    position:relative;
-    height:200px;
-    width:700px;
-    margin:auto;
-}
-#carrousel ul li{
-    position:absolute;
-    top:0;
-    left:0;
-}
+/* CAROUSEL */
