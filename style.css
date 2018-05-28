@@ -50,6 +50,19 @@ body {
 	margin:50px 0px;
 	width: 80%;
 }
+
+.billet {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.fleche {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .place {
 	padding-top:50px;
 	display: flex;
