@@ -1,6 +1,12 @@
 			/* SDF SITE CSS */
 
-section { color:white; background:#333; margin:0; width:100%; height: 650px;border-radius: 10%; margin-bottom:150px;}
+.content {
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+section { color:white; background:linear-gradient(45deg, #eb293a 30%, #f79e31 90%)
+; margin:0; width:85%; height: 600px;border-radius: 10%; margin-bottom:150px;}
 section:nth-child(even) h1 {background:#222;} /*on différencie la couleur 1 section sur 2*/
 
 #mysect1{
@@ -39,7 +45,7 @@ body {
 }
 
 .teaser-title {
-	color :red;
+	color :#76aed9;
 	font-size: 64px;
 	margin:50px 0px;
 	width: 80%;
@@ -52,7 +58,7 @@ body {
 }
 .place-title {
 	text-align: center;
-	color :red;
+	color :#76aed9;
 	font-size: 64px;
 }
 .place-subtitle {
@@ -92,7 +98,7 @@ a:visited{
 }
 .contact-title{
 	text-align: center;
-	color :red;
+	color :#eb293a;
 	font-size: 64px;
 	margin:50px 0px;
 }
@@ -106,7 +112,7 @@ a:visited{
 }
 
 .sponsors-title {
-	color :red;
+	color :#76aed9;
 	font-size: 64px;
 	margin:50px 0px;
 }
@@ -126,7 +132,7 @@ a:visited{
 }
 
 .drinks-title {
-	color :red;
+	color :#76aed9;
 	font-size: 64px;
 	margin:50px 0px;
 }
@@ -183,15 +189,15 @@ a:visited{
 	width:15px;
 	height:15px;
 	border-radius:50%;
-	background-color:rgba(255,0,27,.4);
+	background-color:#d0d56d;
 	display:inline-block;
 	vertical-align:middle;
 	margin-bottom:-2px;
 	margin-right:10px;
-	border: 1px solid #e1001b;
+	border: 1px solid #76aed9;
 }
 #op-verticalnav .op-v-link:hover .v-marker, #op-verticalnav .op-v-item .op-v-link.active .v-marker {
-	background-color:rgba(255,0,27,1);
+	background-color:#eb293a;
 }
 #op-verticalnav .op-v-itemdesc {
 	display:inline-block;
@@ -213,11 +219,15 @@ a:visited{
 }
 
 footer {
-	margin-bottom: -50px;
-	width: auto;
-	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
-	background-color: orange;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10%;
+	color: #fff;
+	height:75px;
+	background-color: #d0d56d;
 	align-items: center;
 	text-align:center;
 }
