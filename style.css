@@ -80,7 +80,7 @@ body {
 .place-subtitle {
 	text-align: center;
 	color :black;
-	font-size: 42px;
+	font-size: 64px;
 	text-decoration: none;
 }
 
@@ -101,13 +101,15 @@ a:visited{
 }
 
 .place-infos {
-	font-size: 24px;
+	font-size: 42px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	color: #FFF;
 }
 
-.place-infos strong {
+.place strong {
 	color: #76aed9;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 42px;
 }
 
 .place-layout {
